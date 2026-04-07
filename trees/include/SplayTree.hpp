@@ -29,7 +29,6 @@ private:
 
     // for insert and remove
     Node* merge(Node* left_tree, Node* right_tree); 
-    std::pair<Node*, Node*> split(int value);
 
     // for values
     void get_values(Node* node, std::vector<int>& result) const; 
